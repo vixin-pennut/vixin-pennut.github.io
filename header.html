@@ -1,0 +1,36 @@
+<?php
+
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+?>
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+	<title><?php echo $title; ?></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Lilli Luomakoski">
+	<meta name="keywords" content="Belgianpaimenkoira, belgi, tervueren, groenendael, kasvattaja, kennel, Ketunpolun Jeanne d'Arc, belgianshepherd,">
+	<meta name="description" content="Aloittelevan belgianpaimenkoirakasvattajan kotisivut">
+	<link href="style.css?v=03?>" type="text/css" rel="stylesheet">
+	<link href="./lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+	<script defer src="../fontawesome-free-5.12.1-web/js/all.js"></script>
+</head>
+<body class="<?php echo $body_class; ?>">
+
+	<header id="header">
+		<button id="menu-mob" aria-label="menu"><img alt="Menu" src="bars.svg"></button>
+		<nav class="hidden" id="nav">
+			<ul>
+				<li><a class="nav_a" href="index.php">Etusivu</a></li>
+				<li><a class="nav_a" href="vixi.php">Vixi</a></li>
+				<li><a class="nav_a" href="pentue1.php">Ensimmäinen pentue</a></li>
+				<li><a class="nav_a" href="pentue2.php">Toinen pentue</a></li>
+				<li><a class="nav_a" href="omistaja.php">Omistaja</a></li>
+			</ul>
+		</nav>
+	</header>

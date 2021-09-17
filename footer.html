@@ -1,0 +1,40 @@
+	<footer>
+		<div>	
+			<div>Lilli Luomakoski</div>
+			<div>+358 50 343 8818</div>
+			<div class="some">
+				<a href="https://www.facebook.com/kettuvauhtia"><i class="fab fa-facebook-f"></i></a> 
+				<a href="https://www.instagram.com/foxcatrat/"><i class="fab fa-instagram"></i></a> 
+				<a href="https://www.youtube.com/channel/UCYj7m8AG529XD6NLZxZuVGA"><i class="fab fa-youtube"></i></a> 
+				<a href="https://wa.me/358503438818"><!-- <span class="tooltip">Käytämme myös WhatsAppia!</span> --><i class="fab fa-whatsapp"></i></a></div>
+			<div>37120 Nokia</div>
+			<div>lilli.luomakoski@gmail.com</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	crossorigin="anonymous"></script>
+	
+	<script src="./lightbox2-2.11.3/dist/js/lightbox.js"></script>
+	
+	<script>window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+	document.getElementById("header").classList.add("scrolled");
+	}
+	else {
+	document.getElementById("header").classList.remove("scrolled");
+	}
+}
+
+$('#menu-mob').on('click', function(e) {
+	$('#nav').toggleClass("hidden");
+});
+
+// js millä tuoda ja piilottaa mob nav! SITTEN JULKAISUUUU!!
+</script>
+
+</body>
+</html>

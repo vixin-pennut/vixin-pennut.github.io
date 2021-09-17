@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+	<title>Vixin pentueet</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Lilli Luomakoski">
+	<meta name="keywords" content="Belgianpaimenkoira, belgi, tervueren, groenendael, kasvattaja, kennel, Ketunpolun Jeanne d'Arc, belgianshepherd,">
+	<meta name="description" content="Aloittelevan belgianpaimenkoirakasvattajan kotisivut">
+	<link href="style.css?v=03?>" type="text/css" rel="stylesheet">
+	<link href="./lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+	<script defer src="../fontawesome-free-5.12.1-web/js/all.js"></script>
+</head>
+<body class="etusivu">
+
+	<header id="header">
+		<button id="menu-mob" aria-label="menu"><img alt="Menu" src="bars.svg"></button>
+		<nav class="hidden" id="nav">
+			<ul>
+				<li><a class="nav_a" href="index.php">Etusivu</a></li>
+				<li><a class="nav_a" href="vixi.php">Vixi</a></li>
+				<li><a class="nav_a" href="pentue1.php">Ensimmäinen pentue</a></li>
+				<li><a class="nav_a" href="pentue2.php">Toinen pentue</a></li>
+				<li><a class="nav_a" href="omistaja.php">Omistaja</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="first-page-grid main-grid">
+			<div class="grid-item box-item" id="etusivupalkki">
+				<h1>Vixin pentueet</h1>
+			</div>
+			<div class="grid-item" id="etusivukuva"></div>
+		</div>
+		<span class="image-copyright etusivu-copyright">Kuva &#169; <a href="https://www.ainovakkilainen.fi">Aino Vakkilainen</a></span>
+	</main>
+	<footer>
+		<div>	
+			<div>Lilli Luomakoski</div>
+			<div>+358 50 343 8818</div>
+			<div class="some">
+				<a href="https://www.facebook.com/kettuvauhtia"><i class="fab fa-facebook-f"></i></a> 
+				<a href="https://www.instagram.com/foxcatrat/"><i class="fab fa-instagram"></i></a> 
+				<a href="https://www.youtube.com/channel/UCYj7m8AG529XD6NLZxZuVGA"><i class="fab fa-youtube"></i></a> 
+				<a href="https://wa.me/358503438818"><!-- <span class="tooltip">Käytämme myös WhatsAppia!</span> --><i class="fab fa-whatsapp"></i></a></div>
+			<div>37120 Nokia</div>
+			<div>lilli.luomakoski@gmail.com</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	crossorigin="anonymous"></script>
+	
+	<script src="./lightbox2-2.11.3/dist/js/lightbox.js"></script>
+	
+	<script>window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+	document.getElementById("header").classList.add("scrolled");
+	}
+	else {
+	document.getElementById("header").classList.remove("scrolled");
+	}
+}
+
+$('#menu-mob').on('click', function(e) {
+	$('#nav').toggleClass("hidden");
+});
+
+</script>
+
+</body>
+</html>
